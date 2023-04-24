@@ -1,68 +1,6 @@
 from telebot import TeleBot, types
 import psutil ,os,time
 
-
-# class Settings_Apps:
-#     def __init__(self,Process_Name):
-#         self.Process_Name = Process_Name
-#         self.Target = ""
-#         self.Threads = ""
-#         self.NumberOfWindow = 1
-#         self.LengthAcc = 0
-#         self.LengthProxy = 0
-#         self.test = Center()
-        
-#     def Set_Threads(self,message): 
-#         self.Threads = message.text.replace(" ",'');
-#         if self.Process_Name == "test":
-#             self.test.bot.send_message(self.test.id, text = f'Target : {self.Target}\nThreads : {self.Threads}\nLength Accounts : {self.LengthAcc}\nLength Proxy : {self.LengthProxy}',reply_markup= self.test.ButtonsProgram())
-            
-                
-#         elif Process_Name == "Checker":
-#             Center().bot.send_message(Center().id, text = f'Icant Set This Option', reply_markup = Center().main());
-#             Center().bot.register_next_step_handler(Process_Name,Center().ma)
-
-
-
-    # def Set_NumberOfWindow(self,message,Process_Name) -> str : self.NumberOfWindow = message.text.replace(" ",'');#self.Center.bot.register_next_step_handler(message,self.Center.run)
-    # def Set_Proxy_Writing(self,message,Process_Name) :
-    #         with open("proxies.txt",'w',encoding="utf-8") as file: 
-    #             for i in message.text.splitlines():
-    #                 x = i.replace(" ",'')
-    #                 file.write(f"{x}\n")
-    #         self.LengthProxy = len(open("proxies.txt","r").read().splitlines())
-           
-    # def Set_Proxy_TextFile(self,message):
-    #     try:
-    #         file_id = message.document.file_id
-    #         file_name = message.document.file_name  
-    #         if ".txt" in file_name:
-    #             file_path = bot.get_file(file_id).file_path
-    #             downloaded_file = bot.download_file(file_path)
-    #             with open("proxies.txt", 'wb') as new_file:
-    #                 new_file.write(downloaded_file)
-    #             self.LengthProxy = len(open("proxies.txt","r").read().splitlines())
-    #             #self.Center.bot.register_next_step_handler(message,self.Center.run)
-    #     except:pass
-    # def Set_Accounts_Writing(self,message) :
-    #     with open("Accounts.txt",'w',encoding="utf-8") as file: 
-    #         for i in message.text.splitlines():
-    #             x = i.replace(" ",'')
-    #             file.write(f"{x}\n")
-    #     self.LengthAcc = len(open("Accounts.txt","r").read().splitlines())
-    #    # self.Center.bot.register_next_step_handler(message,self.Center.run)
-    # def Set_Accounts_TextFile(self,message):
-    #     try:
-    #         file_id = message.document.file_id
-    #         file_name = message.document.file_name  
-    #         if ".txt" in file_name:
-    #             file_path = bot.get_file(file_id).file_path
-    #             downloaded_file = bot.download_file(file_path)
-    #             with open("Accounts.txt", 'wb') as new_file:
-    #                 new_file.write(downloaded_file)
-    #             self.LengthAcc = len(open("Accounts.txt","r").read().splitlines())
-    #             #self.Center.bot.register_next_step_handler(message,self.Center.run)
-    #     except:pass
     
         
 
